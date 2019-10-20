@@ -1,0 +1,47 @@
+.List {
+    display: flex;
+    justify-content: left;    
+    flex-flow: row;
+    list-style: none; 
+    padding: 0;   
+}
+
+.Card {
+    background: rgba(236, 234, 217, 0.904);
+    padding: 1em;
+    margin: 1em 0;
+    border: solid 1px rgba(243, 242, 232, 0.904);
+    border-radius: 5px;
+}
+
+.Card-title {
+    padding: 1em;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 .5em .5em 0;
+    background: rgba(236, 234, 217, 0.904);
+    outline: 0;
+    border: 0;
+    min-width: 2vw;
+}
+
+.List-item {
+    border: solid 1px #000;
+    border-radius: .25em;
+    padding: 0 2em 2em;
+    margin-right: 2em;
+    min-width: 3vw;
+}
+
+.List-item-header {
+    margin: 0 -1.7em 0;
+    padding: 1em;
+    border-bottom: solid .25em #80794ee7;
+}
+
+.List-remove-link,
+.Card-remove-link,
+.List-add-card-link {
+    margin: .5em 0;
+    cursor: pointer;
+}
